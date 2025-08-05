@@ -26,4 +26,5 @@ Frontend: [Vercel Live Link](https://spring-bloom-kappa.vercel.app)
 
 
 
+<img width="1887" height="818" alt="image" src="https://github.com/user-attachments/assets/eb13b7bc-203d-4495-a675-e5fe43d15afc" />
 
