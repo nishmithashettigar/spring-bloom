@@ -50,7 +50,7 @@ identifyBtn.addEventListener('click', async () => {
             const confidence = plant.probability;
 
             if (confidence < 0.6) {
-                resultDiv.innerHTML = "Low confidence. Try another image.";
+                resultDiv.innerHTML = "I couldn't spot a plant in this image. Maybe a clearer plant photo will help!";
             } else {
                 resultDiv.innerHTML = `
                     <h3>${plant.plant_name}</h3>
@@ -59,7 +59,7 @@ identifyBtn.addEventListener('click', async () => {
                 `;
             }
         } else {
-            resultDiv.innerHTML = "Could not identify. Try another image.";
+            resultDiv.innerHTML = "I couldn't spot a plant in this image. Maybe a clearer plant photo will help!";
         }
     } catch (err) {
         console.error(err);
