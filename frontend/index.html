@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Bloom Identifier 🌸</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+
+</head>
+<body>
+    <div class="app-bar">
+    <div class="app-title">🌸 Spring Bloom Identifier</div>
+</div>
+
+    <div class="main-wrapper">
+        <div class="card upload-card">
+            <h2>Spring Bloom Identifier 🌸</h2>
+            <label class="upload-box" for="imageInput">
+                <img src="upload_icon.png" alt="Upload Icon" class="icon">
+                <span id="uploadText">Upload Image</span>
+                <input type="file" id="imageInput" accept="image/*">
+                <img id="previewImage" class="preview" src="#" alt="Image Preview">
+            </label>
+            <button id="identifyBtn">Identify Plant</button>
+            <div id="loader"></div>
+        </div>
+
+        <div class="card result-card">
+            <h2>🌿 Plant Details</h2>
+            <div id="result">
+                <p>Results will appear here after identification.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+
+</body>
+</html>
