@@ -33,7 +33,7 @@ identifyBtn.addEventListener('click', async () => {
     resultDiv.innerHTML = "";
     loader.style.display = "block";
 
-    const backendURL = "https://spring-bloom.onrender.com"; 
+    const backendURL = "https://spring-bloom.onrender.com/identify"; 
 
     try {
         const response = await fetch(backendURL, {
