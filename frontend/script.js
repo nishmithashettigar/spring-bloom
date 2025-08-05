@@ -33,7 +33,7 @@ identifyBtn.addEventListener('click', async () => {
     resultDiv.innerHTML = "";
     loader.style.display = "block";
 
-    const backendURL = "http://localhost:5000/identify"; // Change this to your Render URL after deployment
+    const backendURL = "https://spring-bloom.onrender.com"; 
 
     try {
         const response = await fetch(backendURL, {
