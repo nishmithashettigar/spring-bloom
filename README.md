@@ -4,8 +4,6 @@ Spring Bloom is a web application that allows users to upload plant images and g
 
 ## 🚀 Live Demo
 Frontend: [Vercel Live Link](https://spring-bloom-kappa.vercel.app)  
-Backend API: [Render API Link](https://spring-bloom.onrender.com)
-
 
 
 ## 🖼️ Features
